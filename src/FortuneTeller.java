@@ -66,6 +66,8 @@ public class FortuneTeller {
 			carColor = "Maserati";
 		} else if (color.equalsIgnoreCase("Pink")) {
 			carColor = "Hovercraft";
+		} else if (color.equalsIgnoreCase("Violet")) {
+			carColor = "Spaceship";
 		}
 		
 		String retireFund = null;
