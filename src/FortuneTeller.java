@@ -6,7 +6,7 @@ public class FortuneTeller {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("What is your first name? ");
+		System.out.println("What is your first name?");
 		String name = input.nextLine();
 		System.out.println("Thank you. What is your last name?");
 		String name2 = input.nextLine();
@@ -82,8 +82,7 @@ public class FortuneTeller {
 		}
 		
 		System.out.println(name + " " + name2 + " will retire in " + retireResult + " with " + retireFund + " in the bank, a vacation home in "
-				+ numSiblings + ", and travels by " + carColor);
-	
+				+ numSiblings + ", and travels by " + carColor + ".");	
 	}
 	
 }
